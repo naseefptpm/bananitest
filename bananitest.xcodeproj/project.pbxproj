@@ -16,6 +16,7 @@
 		BD5538F425BE96E00052C6CB /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5538F325BE96E00052C6CB /* DashboardViewController.swift */; };
 		BD5538F925BE9AE50052C6CB /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD5538F825BE9AE50052C6CB /* Dashboard.storyboard */; };
 		BD55390425BEA9D60052C6CB /* TokenService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD55390325BEA9D60052C6CB /* TokenService.swift */; };
+		BD7D11B425D3ACFA0024B826 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7D11B325D3ACFA0024B826 /* MapVC.swift */; };
 		BD7F8CFE25BA9840000B176A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7F8CFD25BA9840000B176A /* AppDelegate.swift */; };
 		BD7F8D0225BA9840000B176A /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7F8D0125BA9840000B176A /* SignUpViewController.swift */; };
 		BD7F8D0525BA9840000B176A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD7F8D0325BA9840000B176A /* Main.storyboard */; };
@@ -30,6 +31,7 @@
 		BD7F8D5D25BAD013000B176A /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7F8D5C25BAD013000B176A /* WelcomeViewController.swift */; };
 		BD7F8D6225BAD88C000B176A /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7F8D6125BAD88C000B176A /* LoginModel.swift */; };
 		BD7F8D6725BADE6E000B176A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7F8D6625BADE6E000B176A /* LoginViewController.swift */; };
+		BD8D80D325D250E900F6475D /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = BD8D80D225D250E900F6475D /* Inceptionv3.mlmodel */; };
 		BDBF84D125C26BE600DBF297 /* BananiBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBF84D025C26BE600DBF297 /* BananiBaseViewController.swift */; };
 		BDBF84E525C2C6C100DBF297 /* Pods_bananitest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9192B3761FC337043B1CB0D2 /* Pods_bananitest.framework */; };
 		F1B729AA989D13AC53312B70 /* Pods_bananitestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 399C552E8DB3FD0C01AA93B2 /* Pods_bananitestTests.framework */; };
@@ -69,6 +71,7 @@
 		BD5538F325BE96E00052C6CB /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 		BD5538F825BE9AE50052C6CB /* Dashboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Dashboard.storyboard; sourceTree = "<group>"; };
 		BD55390325BEA9D60052C6CB /* TokenService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenService.swift; sourceTree = "<group>"; };
+		BD7D11B325D3ACFA0024B826 /* MapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
 		BD7F8CFA25BA9840000B176A /* bananitest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bananitest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD7F8CFD25BA9840000B176A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD7F8D0125BA9840000B176A /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
@@ -88,6 +91,7 @@
 		BD7F8D5C25BAD013000B176A /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		BD7F8D6125BAD88C000B176A /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
 		BD7F8D6625BADE6E000B176A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BD8D80D225D250E900F6475D /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 		BDBF84D025C26BE600DBF297 /* BananiBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BananiBaseViewController.swift; sourceTree = "<group>"; };
 		FB2FE31A4055609D3F97AF9C /* Pods-bananitest-bananitestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bananitest-bananitestUITests.debug.xcconfig"; path = "Target Support Files/Pods-bananitest-bananitestUITests/Pods-bananitest-bananitestUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -158,6 +162,7 @@
 		BD55390125BEA8BA0052C6CB /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				BD7D11B325D3ACFA0024B826 /* MapVC.swift */,
 				BD370F2C25C14878006BC0DF /* SideMenuController.swift */,
 				BD7F8D0125BA9840000B176A /* SignUpViewController.swift */,
 				BD7F8D5C25BAD013000B176A /* WelcomeViewController.swift */,
@@ -213,6 +218,7 @@
 				BD55390125BEA8BA0052C6CB /* Controller */,
 				BD7F8D0625BA9842000B176A /* Assets.xcassets */,
 				BD7F8D0B25BA9843000B176A /* Info.plist */,
+				BD8D80D225D250E900F6475D /* Inceptionv3.mlmodel */,
 			);
 			path = bananitest;
 			sourceTree = "<group>";
@@ -280,6 +286,7 @@
 				BD7F8CF725BA9840000B176A /* Frameworks */,
 				BD7F8CF825BA9840000B176A /* Resources */,
 				4C1CFAFA914D56A7B5173C52 /* [CP] Embed Pods Frameworks */,
+				617D9A990D6CFDADE3C5B3EB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -321,6 +328,7 @@
 				BD7F8D1825BA9843000B176A /* Frameworks */,
 				BD7F8D1925BA9843000B176A /* Resources */,
 				C9AC474499CB9D6C1B6642FA /* [CP] Embed Pods Frameworks */,
+				D73E0846466AA4DEEFFFD773 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -424,6 +432,23 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-bananitest/Pods-bananitest-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		617D9A990D6CFDADE3C5B3EB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bananitest/Pods-bananitest-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bananitest/Pods-bananitest-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-bananitest/Pods-bananitest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		920078523D5E99F49E08C5FB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -461,6 +486,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-bananitest-bananitestUITests/Pods-bananitest-bananitestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D73E0846466AA4DEEFFFD773 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bananitest-bananitestUITests/Pods-bananitest-bananitestUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bananitest-bananitestUITests/Pods-bananitest-bananitestUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-bananitest-bananitestUITests/Pods-bananitest-bananitestUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F617124BE0CED5446CCFCD0E /* [CP] Check Pods Manifest.lock */ = {
@@ -524,9 +566,11 @@
 				BD7F8CFE25BA9840000B176A /* AppDelegate.swift in Sources */,
 				BD7F8D6225BAD88C000B176A /* LoginModel.swift in Sources */,
 				BD5538F425BE96E00052C6CB /* DashboardViewController.swift in Sources */,
+				BD7D11B425D3ACFA0024B826 /* MapVC.swift in Sources */,
 				BD7F8D3225BA9F18000B176A /* Constants.swift in Sources */,
 				BD7F8D5D25BAD013000B176A /* WelcomeViewController.swift in Sources */,
 				BD26720A25CE69F40078FCEB /* DetailViewController.swift in Sources */,
+				BD8D80D325D250E900F6475D /* Inceptionv3.mlmodel in Sources */,
 				BD55390425BEA9D60052C6CB /* TokenService.swift in Sources */,
 				BD4EA1EA25C01C0600CB1761 /* AddPropertyViewController.swift in Sources */,
 			);

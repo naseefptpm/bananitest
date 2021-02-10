@@ -53,8 +53,10 @@ class DashboardViewController: UIViewController, UITableViewDelegate, UITableVie
         let doneItem = UIBarButtonItem(barButtonSystemItem: .bookmarks, target: nil, action: #selector(menuTapped(_:)))
         //let menu = doneItem.image = UIImage(named: "menuicon.png")
         
+        let mapItem = UIBarButtonItem(barButtonSystemItem: .search, target: nil, action: nil)
         
         navItem.leftBarButtonItem = doneItem
+        navItem.rightBarButtonItem = mapItem
         
         navBar.setItems([navItem], animated: false)
         

@@ -6,25 +6,34 @@
 //
 
 import UIKit
+import CoreML
+import Vision
 
-class AddPropertyViewController: UIViewController {
+class AddPropertyViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
+    @IBOutlet weak var imageView: UIImageView!
+    
+    let imagePicker = UIImagePickerController()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        imagePicker.delegate = self
+        imagePicker.sourceType = .photoLibrary
+        imagePicker.allowsEditing = false
+       
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+        if let userPickedImage = info[UIImagePickerController.InfoKey.originalImage] as? UIImage {
+        imageView.image = userPickedImage
+        }
+        imagePicker.dismiss(animated: true, completion: nil)
     }
-    */
+    @IBAction func cameraTapped(_ sender: UIBarButtonItem) {
+        
+        present(imagePicker, animated: true, completion: nil)
+    }
+    
 
 }
 
